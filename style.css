@@ -1,25 +1,42 @@
-.item {
-    margin: 10px;
-    border-bottom: 1px solid #2fa4ab;
-    padding-bottom: 15px;
-    font-size:18px;
-}
-body {
-    background: color #f2f3f5;
-    font-family: Arial, Helvetica, sans-serif;
-}
-.container {
-    width: 800px;
-    margin: auto;
-    background-color: #fff;
-    padding: 10px;
-    border-left: 2px solid #2fa4ab;
-    border-radius: 3px;
-}
-.view-more {
-    text-align: center;
-    color:#2fa4ab;
-    font-style: italic;
-    cursor: pointer;
+div {
+    display: inline-block;
+    background-color:#252525;
+    width: 300px;
+    height: 92.15px;
 
+}
+.barraBusqueda {
+    background-color:#3F334C;
+    position:absolute;
+    top: 35px;
+    left: 30px;
+    width:250px;
+    height: 40px;
+    border-radius: 22px;
+}
+.circulo {
+    background-color: #DE2768;
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    top: 25px;
+    left: 220px;
+    border-radius: 30px;
+}
+#buscar {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    position: absolute;
+    left: 8px;
+    color: rgb(231, 231, 231);
+    font-weight: bold;
+
+}
+#equis {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    position: absolute;
+    left: 22px;
+    color: rgb(12, 12, 12);
+    font-weight: bold;
 }
