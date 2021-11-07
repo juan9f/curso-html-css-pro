@@ -34,3 +34,14 @@ nav {
 .image {
     height: 245px;
 }
+@media (max-width: 480px) {
+    .main-container {
+      width: 100%;
+    }
+    .container {
+        flex-direction: column;
+    }
+    .card {
+        width: 100%;
+    }
+  }
